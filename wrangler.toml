@@ -1,5 +1,10 @@
-name = "gh"
+name = "gh-proxy"
 main = "src/index.js"
 compatibility_date = "2024-04-06"
 
 
+workers_dev = false
+
+[route]
+pattern="gh.acc.orllow.cn"
+custom_domain = true
